@@ -1,0 +1,33 @@
+.inn-slider-item {
+	width: 100%;
+}
+
+.inn-slider-item__img {
+	width: 100%;
+}
+
+.owl-nav {
+	display: none;
+}
+
+.owl-dots {
+	margin-top: 20px;
+	display: none;
+	/* display: block; */
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+	background: #208C8C;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: 4px solid #208C8C;
+	background: #FCFCFC;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #FCFCFC;
+}
+.owl-theme .owl-dots .owl-dot.active:hover span {
+	background: #208C8C;
+}

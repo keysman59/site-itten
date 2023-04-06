@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^ittency\.ru$ [NC]
+RewriteRule (.*) https://ittensy.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.ittency\.ru$ [NC]
+RewriteRule ^(.*)$ https://ittensy.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.ittensy\.ru$ [NC]
+RewriteRule ^(.*)$ https://ittensy.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^XN--E1AFBTUDA\.XN--P1AI$ [NC]
+RewriteRule ^(.*)$ https://ittensy.ru/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://ittensy.ru/ [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://ittensy.ru/ [R=301,L]
+
+ErrorDocument 404 https://ittensy.ru/404.html
+

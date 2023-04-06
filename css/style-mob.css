@@ -1,0 +1,690 @@
+/* @media (min-width: 777px) and (max-width: 1441px) {  */
+@media (max-width: 1440px) { 
+    .hero {
+        height: 66vw;
+    }
+
+    .hero__name {
+        font-size: 12vw;
+    }
+    .hero__name-2 {
+        margin-left: 3.5vw;
+    }
+
+    .hero-content-wrp {
+        height: 56vw;
+        padding-top: 14vw;
+    }
+
+    .hero__name-r {
+        font-size: 8vw;
+        right: -5vw;
+    }
+
+    .from-and-to-content {
+        width: calc(100% - 32px);
+    }
+
+    .from-and-to__decor-text {
+        font-size: 5.3vw;
+    }
+
+    .content {
+        width: calc(100% - 32px);
+    }
+
+    .pastille__caption {
+        font-size: 70px;
+    }
+
+    .pastille__text {
+        max-width: 610px;
+        font-size: 18px;
+    }   
+
+    .nvp-block__text {
+        margin-top: 32px;
+        font-size: 30px;
+    }
+
+    .nvp-block img {
+        max-width: 150px;
+    }
+
+    .star__caption {
+        font-size: 60px;
+    }
+
+    .star-content {
+        padding-top: 19vw;
+        padding-bottom: 17vw;
+    }
+
+    .mgv-content__caption {
+        font-size: 64px;
+    }
+
+    .mgv-block__text {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 1100px) { 
+    .from-and-to__text {
+        font-size: 28px;
+    }
+
+    .dignity-content {
+        padding-top: 150px;
+        padding-bottom: 170px;
+    }
+
+    .dignity__decor-text--pain {
+        top: 12%;
+    }
+
+    .dignity__decor-text--chih {
+        bottom: 16%;
+    }
+
+    .hand-decor  {
+        max-width: 150px;
+    }
+
+    .content__btn {
+        padding: 16px 46px 19px 46px;
+        font-size: 22px;
+    }
+
+    .pastille-floor-top {
+        top: -5%;
+    }
+
+    .buy-online-content {
+        padding-bottom: 185px;
+    }
+
+    .pastille__caption {
+        font-size: 64px;
+    } 
+
+    .pastille-block__text {
+        font-size: 14px;
+    }
+
+    .pastille-block__img {
+        width: 11.5vw;
+    }
+
+    .non-standart__caption {
+        font-size: 64px;
+    }
+
+    .non-standart__text {
+        font-size: 18px;
+    }
+
+    .non-standart-content {
+        padding-top: 14vw;
+        padding-bottom: 14vw;
+    }
+
+    .nvp-block__text {
+        margin-top: 20px;
+        font-size: 2.6vw;
+    }
+
+    .nvp-block img {
+        max-width: 13vw;
+    }
+
+    .star__caption {
+        font-size: 5vw;
+        max-width: 58vw;
+    }
+
+    .star-content {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .mgv-content__caption {
+        font-size: 58px;
+    }
+
+}
+
+@media (max-width: 991px) { 
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .content {
+        width: calc(100% - 20px);
+    }
+
+    .hero__slogan {	
+        font-size: 3vw;
+    }
+
+    .hero-bg {
+        width: calc(100vw - 20px);
+    }
+
+    .from-and-to-content {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 10px;   
+    }
+
+    .from-and-to__decor-text, .from-and-to__arrow {
+        display: none;
+    } 
+
+    .product-line__caption {
+        font-size: 8vw;
+    }
+
+    .product-line-wrp {
+        padding-top: 13vw;
+    }
+
+    .from-and-to-wrp {   
+        padding-top: 42px;
+    }
+
+    .from-and-to-content {
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 0px;
+    }   
+
+    .from-and-to__link {
+        width: 50%;
+    }
+
+    .from-and-to__block {
+        max-width: none;
+        max-height: none;
+        height: 50vw;
+    }
+
+    .buy-online__text {
+        font-size: 36px;
+        max-width: 461px;
+    }
+
+    .pastille__caption {
+        font-size: 6.8vw;
+    } 
+
+    .pastille__r {
+        margin-left: -2vw;
+    }
+
+    .pastille__text {
+        max-width: 54vw;
+        font-size: 1.6vw;
+    }
+
+    .pastille-content {
+        padding-top: 10vw;
+    }
+
+    .pastille-content__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pastille-block {
+        height: 96vw;
+    }
+
+    .pastille-block__img {
+        width: auto;
+    }
+
+    .pastille-floor-top {
+        top: -56px;
+    }
+
+    .non-standart {
+        padding-top: 20vw;
+        padding-bottom: 20vw;
+    }
+
+    .non-standart__caption {
+        font-size: 6vw;
+        max-width: 70vw;
+    }
+
+    .non-standart__text {
+        font-size: 2vw;
+        max-width: 72vw;
+    }
+
+    .nvp__caption {
+        font-size: 60px;
+    }
+
+    .nvp__text {
+        font-size: 26px;
+        max-width: 500px;
+    }
+
+    .mgv-block__text {
+        font-size: 14px;
+    }
+
+    .mgv-content__caption {
+        font-size: 6vw;
+    }
+
+    .mgv-block__text {
+        margin-top: 12px;
+    }
+}
+
+
+@media (max-width: 767px) { 
+    .hero {
+        height: 610px;
+    }
+
+    .hero-bg {
+        bottom: 110px;
+        width: 103vw;
+    }
+
+    .hero-content-wrp {
+        height: calc(100% - 64px);
+    }
+
+    .hero__wrp-name {
+        flex-direction: column;
+    }
+
+    .hero__name {
+        max-width: 330px;
+        text-align: center;
+        font-size: 100px;
+        line-height: 100%;
+    }
+
+    .hero__name-2 {
+        margin-left: 0;
+    }
+
+    .hero__name-r {
+        font-size: 50px;
+        right: -2.5vw;
+    }
+
+    .hero__slogan {	
+        font-size: 20px;
+        max-width: 280px;
+        text-align: center;
+        margin-bottom: 20px;
+        line-height: 120%;
+    }
+
+    .hero-content-wrp {
+        height: 100%;
+        padding-top: 104px;
+    }
+
+    .product-line__text {
+        font-size: 2.6vw;
+        max-width: 72vw;
+    }
+
+    .product-line__caption {
+        max-width: 55vw;
+        text-align: center;
+    }
+
+    .product-line__r {
+        margin-left: -11px;
+    }
+
+    .dignity__text {
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        max-width: 380px;
+    }
+
+    .hand-decor--right {
+        right: 12%;
+        top: -12%;
+        transform: rotate(-15deg);
+    }
+    .hand-decor--left {
+        left: 12%;
+        top: -12%;
+        transform: rotate(15deg);
+    }
+
+    .pastille-floor-top {
+        height: 170px;
+    }
+
+    .pastille-floor__img {
+        height: 100%
+    }
+
+    .mgv__row {
+        flex-direction: column;
+    }
+
+    .mgv-block--1 {
+        background-image: url('../images/mobile/bg-oval-1.svg'); 
+    }
+    .mgv-block--2 {
+        background-image: url('../images/mobile/bg-oval-2.svg'); 
+    }
+    .mgv-block--3 {
+        background-image: url('../images/mobile/bg-oval-3.svg'); 
+    }
+
+    .mgv-block {
+        width: 90vw;
+        max-height: 220px;
+        max-width: 408px;
+        height: 47vw;
+    }
+
+    .mgv-circle {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 622px) { 
+    .buy-online__text {
+        font-size: 6vw;
+        max-width: 75vw;
+    }
+
+    .pastille__text {
+        display: none;
+    }
+
+    .pastille__items {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .non-standart-content {
+        padding-top: 131px;
+        padding-bottom: 131px;
+    }
+
+    .non-standart__caption {
+        font-size: 36px;
+        max-width: 370px;
+    }
+
+    .non-standart__text {
+        display: none;
+        font-size: 15px;
+    }
+    
+    .non-standart__text--mob {
+        display: block;
+    }
+
+    .hero__name-r {
+        right: -3.5vw;
+    }
+
+    .hero__slogan {
+        max-width: 240px;
+    }
+
+    .nvp__row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+    }
+
+    .nvp-block {
+        max-width: 204px;
+        max-height: 204px;
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .nvp-block--5 {
+        position: absolute;
+        top: -204px;
+        right: 0;
+    }
+
+    .nvp-block img {
+        max-width: 96px;
+    }
+
+    .nvp-block__text {
+        font-size: 18px;
+    }
+
+    .nvp__items {
+        margin-top: 40px;
+    }
+
+    .mgv-block {
+        width: 99vw;
+        max-height: 201px;
+        max-width: 374px;
+        height: 118vw;
+    }
+}
+
+@media (max-width: 479px) { 
+
+    .content {
+        width: 100%;
+    }
+
+    .container-main {
+        box-sizing: border-box;
+    }
+
+    .hero-content-wrp {
+        box-sizing: border-box;
+    }
+
+    .hero-bg {
+        bottom: 22px;
+        width: 102vw;
+    }
+
+    .product-line-wrp {
+        box-sizing: border-box;
+    }
+
+    .non-standart__caption {
+        max-width: 280px;
+    }
+
+    .product-line__caption {
+        max-width: 79vw;
+        text-align: center;
+        font-size: 11vw;
+    }
+
+    .product-line__text {
+        font-size: 4vw;
+        max-width: 86vw;
+    }
+
+    .from-and-to__text {
+        font-size: 5.2vw;
+    }
+    
+    .from-and-to-wrp {
+        padding-top: 10vw;
+        padding-bottom: 14vw;
+    }
+
+    .from-and-to-content {
+        width: 100%;
+    }
+
+    .from-and-to-block {
+        margin-top: -1px;
+    }
+
+    .dignity-wrp {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .dignity-content {
+        width: 100vw;
+        border-radius: 60px;
+    }
+
+    .dignity__text {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .dignity__decor-text {
+        font-size: 34px;
+        transform: rotate(-10.7deg);
+    }
+    .dignity__decor-text--pain {
+        top: 15%;
+        left: 8%;
+    }
+    .dignity__decor-text--chih {
+        bottom: 18%;
+        transform: rotate(10.94deg);
+    }
+
+    .hand-decor {
+        max-width: 115px;
+    }
+
+    .hand-decor--right {
+        right: 17%;
+        top: -10%;
+    }
+    .hand-decor--left {
+        left: 17%;
+        top: -10%;
+    }
+
+    .nvp-content {
+        align-items: center;
+    }
+
+    .nvp__text {
+        font-size: 20px;
+        max-width: 426px;
+    }
+    .nvp__caption {
+        font-size: 11.5vw;
+        max-width: 80vw;
+    }
+    .nvp-block {
+        width: 48vw;
+        height: 48vw;
+    }
+
+    .star__fone-bg {
+        left: -15vw;
+        top: -10px;
+        width: 131vw;
+        height: 358px;
+    }
+
+    .star__caption {
+        font-size: 7.5vw;
+        max-width: 79vw;
+    }
+
+    .star-content {
+        padding-top: 126px;
+        padding-bottom: 30px;
+    }
+
+    .mgv-block {
+        max-height: 180px;
+        max-width: 334px;
+    }
+    .mgv-content {
+        padding-top: 28vw;
+    }
+    .mgv-content__caption {
+        font-size: 11.4vw;
+    }
+    .mgv__items {
+        margin-top: 7.5vw;
+    }
+
+    .buy-online-wrp {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .buy-online-content {
+        width: 100vw;
+        border-radius: 60px;
+        padding-bottom: 160px;
+    }
+
+    .buy-online__text {
+        font-size: 7.5vw;
+        max-width: 84vw;
+    }
+
+    .pastille-floor-top {
+        width: 116%;
+        top: -70px;
+    }
+
+    .pastille__caption {
+        text-align: center;
+        font-size: 12vw;
+        max-width: 87vw;
+    }
+    .pastille__caption--imm {
+        font-size: 10vw;
+        max-width: 72vw;
+    }
+    .pastille__r {
+        margin-left: -3.4vw;
+    }
+    .pastille-block {
+        max-width: 310px;
+        max-height: 310px;
+        height: 93vw;
+    }
+
+    .content__btn {
+        padding: 22px 46px 24px 46px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+    }
+}
+
+@media (max-width: 426px) { 
+    .nvp-block--5 {
+        top: -47.8vw;
+    }
+
+    .nvp-block img {
+        max-width: 76px;
+    }
+
+    .nvp-block__text {
+        font-size: 16px;
+    }
+}
+
